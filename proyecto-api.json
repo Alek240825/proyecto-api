@@ -1,0 +1,130 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "tipodoc": "Cedula Ciudadania",
+      "numdoc": 1234567890,
+      "nombre": "Mario Alberto",
+      "apellido": "Yepes Caicedo",
+      "fnacimiento": "1982-06-25",
+      "email": "marioyepes@gmail.com",
+      "password": "qwerty"
+    },
+    {
+      "id": "2",
+      "tipodoc": "Pasaporte",
+      "numdoc": 198765432,
+      "nombre": "Laura Maria",
+      "apellido": "Esguerra Cortés",
+      "fnacimiento": "1987-03-15",
+      "email": "lauraesguerra@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "tipodoc": "Cedula Ciudadania",
+      "numdoc": 987654321,
+      "nombre": "Carlos Alberto",
+      "apellido": "Sanchez Gomez",
+      "fnacimiento": "1990-05-10",
+      "email": "carlossanchez@gmail.com",
+      "password": "password123"
+    },
+    {
+      "id": "5",
+      "tipodoc": "Targeta Identidad",
+      "numdoc": 1022944804,
+      "nombre": "Narly Beatriz",
+      "apellido": "Sánchez Caviedez",
+      "fnacimiento": "2006-08-19",
+      "email": "alejandrog1908@hotmail.com",
+      "password": "Alek1223"
+    }
+  ],
+  "habitación": [
+    {
+      "id": "101",
+      "nombrehab": "Suite Deluxe",
+      "capacidad": 3,
+      "camas": 2,
+      "caracteristicas": "2 camas, una doble, una sencilla, un baño privado",
+      "valornoche": 125000
+    },
+    {
+      "id": "102",
+      "nombrehab": "Suite Basic",
+      "capacidad": 2,
+      "camas": 1,
+      "caracteristicas": "1 cama doble, un baño privado",
+      "valornoche": 100000
+    },
+    {
+      "id": "103",
+      "nombrehab": "Habitación Doble",
+      "capacidad": 4,
+      "camas": 2,
+      "caracteristicas": "2 camas dobles, 1 baño privado",
+      "valornoche": 180000
+    },
+    {
+      "id": "104",
+      "nombrehab": "Habitación Individual",
+      "capacidad": 1,
+      "camas": 1,
+      "caracteristicas": "1 cama sencilla, 1 baño compartido",
+      "valornoche": 80000
+    }
+  ],
+  "reserva": [
+    {
+      "id": "1",
+      "fechareserva": "2022-07-07",
+      "fechaentrada": "2022-08-22",
+      "fechasalida": "2022-08-26",
+      "totalnoches": 5,
+      "valorreserva": 625000,
+      "userId": 1,
+      "habitacionId": 101
+    },
+    {
+      "id": "2",
+      "fechareserva": "2022-04-07",
+      "fechaentrada": "2022-08-20",
+      "fechasalida": "2022-08-21",
+      "totalnoches": 2,
+      "valorreserva": 300000,
+      "userId": 2,
+      "habitacionId": 102
+    },
+    {
+      "id": "3",
+      "fechareserva": "2022-09-10",
+      "fechaentrada": "2022-09-20",
+      "fechasalida": "2022-09-25",
+      "totalnoches": 5,
+      "valorreserva": 900000,
+      "userId": 1,
+      "habitacionId": 105
+    },
+    {
+      "id": "4",
+      "fechareserva": "2022-10-15",
+      "fechaentrada": "2022-10-18",
+      "fechasalida": "2022-10-20",
+      "totalnoches": 2,
+      "valorreserva": 160000,
+      "userId": 5,
+      "habitacionId": 103
+    },
+    {
+      "id": "4",
+      "fechareserva": "2022-10-15",
+      "fechaentrada": "2022-10-18",
+      "fechasalida": "2022-10-20",
+      "totalnoches": 2,
+      "valorreserva": 160000,
+      "userId": 5,
+      "habitacionId": 104
+    }
+  ]
+}
